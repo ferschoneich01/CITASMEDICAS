@@ -1,0 +1,61 @@
+body {
+    background: #74ebd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+main {
+    margin-top: 55px;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.col a{
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    border-color: transparent;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    padding-top: 80px;
+    background-color: rgb(226, 250, 242);
+    -webkit-box-shadow: 2px 2px 5px rgb(138, 135, 135);
+    -moz-box-shadow: 2px 2px 5px rgb(138, 135, 135);
+}
+
+.col a:hover{
+    background-color:rgb(176, 184, 181) ;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img{
+    width: 250px;
+    transform: translateX(165%);
+}
+
+.row{
+    border: 5px solid rgb(203, 245, 249);
+    border-radius: 20px;
+    
+}
+
+.btnCrearCita{
+    width: 20px;
+    height: 20px;
+}

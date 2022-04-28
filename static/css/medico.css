@@ -1,0 +1,64 @@
+.btnMenu{
+    border-radius: 20px;
+    border-color: transparent;
+    float:left;
+    top:100%;
+    margin:8px;
+    padding: 8px;
+    -webkit-box-shadow: 2px 2px 5px rgb(138, 135, 135);
+    -moz-box-shadow: 2px 2px 5px rgb(138, 135, 135);
+    background-color: rgb(190, 224, 224);
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: #74ebd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h3{
+    text-align: center;
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: auto;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 10px;
+    padding-right: 15px;
+    -webkit-box-shadow: 2px 2px 5px rgb(138, 135, 135);
+    -moz-box-shadow: 2px 2px 5px rgb(138, 135, 135);
+}
+
+input{
+    margin: 5px;
+    
+}
+
+.form button{
+    margin:5px;
+    width: 100%;
+}
+
+.col2 h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
